@@ -50,7 +50,7 @@ ul ul li {
 
 ul li {
   border: 1px solid transparent; 
-  padding: 1.25em .80em;
+  padding: 1em .80em;
 }
 
 .navbar-menu li:last-child,
@@ -105,6 +105,16 @@ ul li {
   align-items: center;
  }
 
+ .search-image {
+   width: 600px;
+   height: 250px;
+   border-radius: 125px;
+   background: white;
+   box-shadow: 7px 4px 20px 0px #2398A5;
+   margin-top: 50px;
+   margin-bottom: 60px;
+ }
+
  .search-bar {
   border-radius: 5px;
   border: 1px solid gray;
@@ -135,7 +145,8 @@ ul li {
  #search-button {
   border: 1px solid gray;
   border-radius: 50px;
-  padding: 7px 20px;
+  /* padding: 7px 20px; */
+  padding: .4em 1.15em;
  }
 
 #search-button {
@@ -153,8 +164,26 @@ input[type=text]:focus {
   border-bottom: 1px solid gray;
 }
 
+/**********
+ * Footer *
+ **********/
 
-/***** *****/
+.search-result {
+  width: 100%;
+  height: 800px;
+  margin-top: 40px;
+  background: #F5F5F5;
+}
+
+/**********
+ * Footer *
+ **********/
+ 
  .copyright {
-   display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  padding: 10px 0;
+  text-align: center;
  }
